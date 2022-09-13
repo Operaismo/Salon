@@ -114,6 +114,18 @@ nav li {
   float: right;
 }
 
+.hours-vertical {
+  display: block;
+  float: right;
+  writing-mode: vertical-rl;
+  margin-top: 40vh;
+}
+
+.arrows {
+  float: right;
+  margin-top: 120vh;
+}
+
 /* footer {
 
 } */

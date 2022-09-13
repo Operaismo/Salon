@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/Operaismo/Salon#readme",
   "devDependencies": {
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "standard-version": "^9.5.0"
   },
   "dependencies": {
     "@commitlint/cli": "^17.1.2",
