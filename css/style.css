@@ -22,7 +22,20 @@
 /*******************************************/
 
 body {
+  font-family: 'Playfair Display', sans-serif;
+}
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+li, nav a {
+  list-style: none;
+  font-size: 1.25em;
 }
 
 
@@ -30,12 +43,38 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+  color: black;
+  height: 3em;
 }
 
-footer {
-
+.nav-logo {
+  width: 100px;
+  height: 50px;
+  object-fit: cover;
 }
+
+.logo {
+  width: 10%;
+  float: left;
+  display: block;
+}
+
+.nav-links {
+  margin: 0 auto;
+}
+
+nav li {
+  width: 10%;
+  height: 100%;
+  display: block;
+  float: left;
+  padding: .2em .2em .2em .2em;
+  text-align: center;
+}
+
+/* footer {
+
+} */
 
 /******************************************
 /* ADDITIONAL STYLES
