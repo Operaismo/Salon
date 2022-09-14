@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.1...v1.0.2) (2022-09-14)
+
+
+### Features
+
+* added media query for small desktops ([28adb40](https://github.com/mokkapps/changelog-generator-demo/commits/28adb40ecc287a0ce007bee3a30ac3b6e45a37bd))
+* implemented lookbook on large desktops ([e1ad76a](https://github.com/mokkapps/changelog-generator-demo/commits/e1ad76a81a3c317e2094a67ae94653f4dbc73e65))
+
+
+### Bug Fixes
+
+* fixed bug where lookbook image ratios weren't correct ([1ca33bc](https://github.com/mokkapps/changelog-generator-demo/commits/1ca33bca8c8b24318ccb5343ce7d43ec783cee16))
+* fixed issue where button under momentum section wasn't black bg white text ([48d16cf](https://github.com/mokkapps/changelog-generator-demo/commits/48d16cffe65c0a16dc8c6ec4088e5800da4cbb4e))
+
 ### [1.0.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.0...v1.0.1) (2022-09-14)
 
 
