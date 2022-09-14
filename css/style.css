@@ -167,7 +167,7 @@ nav li {
   padding: 0.5em 0.5em 0.5em 0.5em;
   color: white;
   text-align: center;
-  font-size: .75em;
+  font-size: 0.75em;
 }
 
 .main-info {
@@ -326,18 +326,20 @@ nav li {
   float: left;
 }
 
-.allImages, .imgColumn{
+.allImages,
+.imgColumn {
   margin: 0 auto;
   text-align: center;
   padding: 0;
   contain: content;
 }
 
-.lookbook .allImages{
+.lookbook .allImages {
   padding-left: 7%;
 }
 
-.imgColumn, .stylistImgWrapper{
+.imgColumn,
+.stylistImgWrapper {
   width: 33%;
   float: left;
 }
@@ -346,7 +348,6 @@ nav li {
   clear: both;
   overflow: hidden;
 }
-
 
 /******************************************
 /* ADDITIONAL STYLES
