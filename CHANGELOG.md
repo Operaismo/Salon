@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.2...v1.0.3) (2022-09-14)
+
+
+### Features
+
+* changed font to Cinzel to match the vibe of the wireframe ([5a87c77](https://github.com/mokkapps/changelog-generator-demo/commits/5a87c77cb5f5dbb731cac139a3a0590e1e8a0ba0))
+
+
+### Bug Fixes
+
+* fixed issue where background image of coupon aside was clipped ([c339053](https://github.com/mokkapps/changelog-generator-demo/commits/c339053e091b1904ece372297a93573accbc93fc))
+
 ### [1.0.2](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.1...v1.0.2) (2022-09-14)
 
 
