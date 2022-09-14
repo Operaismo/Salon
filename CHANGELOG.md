@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.0...v1.0.1) (2022-09-14)
+
+
+### Features
+
+* added styling for Make Your Own Momentum section ([a3575c2](https://github.com/mokkapps/changelog-generator-demo/commits/a3575c23a90a6798e5c32922d2370f2fffff31c0))
+* aligned arrows and rotated hour text properly ([40b1dbd](https://github.com/mokkapps/changelog-generator-demo/commits/40b1dbd33205bac193994e4c24e8e782f7e4ae35))
+
+
+### Bug Fixes
+
+* fixed a bug where the name was appearing above the image instead of in the black div ([b00447c](https://github.com/mokkapps/changelog-generator-demo/commits/b00447c702e7ecdc4821ea2d618d8eebbb8c8d00))
+
 ## 1.0.0 (2022-09-13)
 
 
