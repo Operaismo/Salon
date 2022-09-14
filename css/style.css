@@ -186,6 +186,11 @@ nav li {
   padding-right: 4em;
 }
 
+.momentum button {
+  background-color: #000;
+  color: #fff;
+}
+
 .woman-salon {
   width: 75%;
   height: 75%;
@@ -196,15 +201,43 @@ nav li {
   clear: both;
   text-align: center;
   overflow: hidden;
+  margin: auto auto;
   padding: 6em 6em 6em 6em;
+}
+
+.three-stylists {
+  padding-left: 5em;
+  display: block;
+  overflow: hidden;
+  margin: auto auto;
 }
 
 .stylist-one,
 .stylist-two,
 .stylist-three {
-  width: 33.3333%;
+  max-width: 33.3333%;
   float: left;
+  background-color: black;
+  margin: auto auto;
+  color: white;
 }
+
+.stylist-img {
+  width: 370px;
+  height: 480px;
+}
+
+@media (min-width: 1921px) and (max-width: 2560px) {
+  .three-stylists {
+    padding-left: 22em;
+  }
+}
+
+/* .stylist-info {
+  
+  width: 370px;
+  margin: 2em 2em;
+} */
 
 /* MAIN 4: Color Day Offer */
 .color-day {
