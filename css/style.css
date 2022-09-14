@@ -54,7 +54,7 @@ nav a {
 }
 
 .imgOne {
-  background: url('../img/highlights.jpg') no-repeat center;
+  background: url('../img/highlights-lb.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -111,7 +111,7 @@ header {
 }
 
 .logo {
-  width: 10%;
+  width: 12%;
   float: left;
   display: block;
 }
@@ -129,10 +129,19 @@ nav li {
   text-align: center;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   nav a {
-    list-style: none;
-    font-size: 0.7em;
+    font-size: 0.65em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  nav a {
+    display: none;
+  }
+
+  nav li {
+    display: none;
   }
 }
 
@@ -143,6 +152,7 @@ nav li {
   width: 100%;
   height: 150vh;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   background-image: url('../img/highlights.jpg');
 }
@@ -151,7 +161,8 @@ nav li {
   display: block;
   width: 50%;
   float: left;
-  font-size: 3em;
+  font-size: 2em;
+  margin-left: 3em;
 }
 
 .our-services {
@@ -162,7 +173,7 @@ nav li {
 
 .first-visit {
   background: black;
-  width: 500px;
+  width: 25%;
   margin-top: 50px;
   padding: 0.5em 0.5em 0.5em 0.5em;
   color: white;
@@ -173,18 +184,37 @@ nav li {
 .main-info {
   width: 50%;
   float: right;
+  margin-right: 3em;
 }
 
 .hours-vertical {
   display: block;
   float: right;
   writing-mode: vertical-rl;
-  margin-top: 40vh;
+  margin-top: 1vh;
 }
 
 .arrows {
   float: right;
-  margin-top: 140vh;
+  margin-top: 65vh;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .blonde-highlight {
+    font-size: 1em;
+    margin-top: 5em;
+  }
+
+  .first-visit {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-landing {
+    background-size: contain;
+    background-position: top; 
+  }
 }
 
 /* MAIN 2: Three columns */
@@ -215,7 +245,7 @@ nav li {
   clear: both;
   overflow: hidden;
   width: 100%;
-  height: 48vh;
+  height: 100%;
   padding: 5em 5em 5em 5em;
   background-color: var(--main-grey);
 }
@@ -226,14 +256,14 @@ nav li {
 }
 
 .momentum-one {
-  padding-left: 4em;
+  padding-left: 3em;
   float: left;
 }
 
 .momentum-two {
   object-fit: cover;
   float: right;
-  padding-right: 4em;
+  padding-right: 3em;
 }
 
 .momentum button {
@@ -242,13 +272,29 @@ nav li {
 }
 
 .woman-salon {
-  width: 75%;
-  height: 75%;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .momentum h2 {
+    font-size: 2em;
+    padding-top: 1em;
+  }
+  .momentum {
+    padding: 1em 1em 1em 1em;
+    line-height: 1.5;
+    font-size: .7em;
+  }
+  .woman-salon {
+    padding: 3em 3em 3em 3em;
+  }
 }
 
 /* MAIN 3: Stylists */
 .stylists {
   clear: both;
+  width: 100%;
   text-align: center;
   overflow: hidden;
   margin: auto auto;
@@ -256,7 +302,6 @@ nav li {
 }
 
 .three-stylists {
-  padding-left: 5em;
   display: block;
   overflow: hidden;
   margin: auto auto;
@@ -265,16 +310,21 @@ nav li {
 .stylist-one,
 .stylist-two,
 .stylist-three {
-  max-width: 33.3333%;
+  width: 33.3333%;
   float: left;
+  padding: 5em 5em 5em 5em;
+}
+
+.stylist-info {
   background-color: black;
   margin: auto auto;
   color: white;
+  padding: 2em 2em 2em 2em;
 }
 
 .stylist-img {
-  width: 370px;
-  height: 480px;
+  width: 100%;
+  height: 100%;
 }
 
 @media (min-width: 1921px) and (max-width: 2560px) {
@@ -283,11 +333,15 @@ nav li {
   }
 }
 
-/* .stylist-info {
-  
-  width: 370px;
-  margin: 2em 2em;
-} */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .stylists {
+    padding: 4em 4em 4em 4em;
+    font-size: .5em;
+  }
+  .stylist-one, .stylist-two, .stylist-three {
+    padding: .2em .2em .2em .2em;
+  }
+}
 
 /* MAIN 4: Color Day Offer */
 .color-day {
@@ -301,7 +355,7 @@ nav li {
 
 .couponBig {
   width: 80%;
-  margin: 0 auto;
+  margin: auto auto;
   padding: 10% 5%;
   clear: both;
 }
@@ -357,7 +411,3 @@ nav li {
   width: 100px;
   font-weight: bold;
 }
-
-/* hr {
-  display: none;
-} */
