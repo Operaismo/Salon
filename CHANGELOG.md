@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.3...v1.1.0) (2022-09-14)
+
+
+### Features
+
+* fixed vector sizing to better fit page ([815fd63](https://github.com/mokkapps/changelog-generator-demo/commits/815fd6316bad03760d2776f5e25b3f48f4d31f11))
+* reformatted momentum section ([b040f1e](https://github.com/mokkapps/changelog-generator-demo/commits/b040f1ef1a2c8deb904746afd0f78bb40c7477a8))
+
 ### [1.0.3](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.2...v1.0.3) (2022-09-14)
 
 
