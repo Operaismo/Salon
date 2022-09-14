@@ -2,3 +2,5 @@
 node_modules/
 .commitlintrc.json
 .versionrc.json
+example.html
+css/style2.css

@@ -47,8 +47,50 @@ nav a {
   font-size: 1.1em;
 }
 
-.video, .lookbook, .services{
+.video,
+.lookbook,
+.services {
   contain: content;
+}
+
+.imgOne {
+  background: url('../img/highlights.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.imgTwo {
+  background: url('../img/jewelry.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.imgThree {
+  background: url('../img/red-head.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.imgFour {
+  background: url('../img/power-pose.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.imgFive {
+  background: url('../img/red-nails.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.imgSix {
+  background: url('../img/red-lips.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.imgSquare,
+.imgRectangle {
+  width: 360px;
+  height: 360px;
+  border: 5px solid white;
+}
+.imgRectangle {
+  height: 760px;
 }
 
 /******************************************
@@ -115,13 +157,17 @@ nav li {
 .our-services {
   background-color: black;
   color: white;
-  padding: 1em 1em 1em 1em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
 .first-visit {
   background: black;
+  width: 500px;
+  margin-top: 50px;
+  padding: 0.5em 0.5em 0.5em 0.5em;
   color: white;
   text-align: center;
+  font-size: .75em;
 }
 
 .main-info {
@@ -249,97 +295,58 @@ nav li {
 }
 
 .couponBig {
-  background: url('../img/Promo-Banner-Image.jpg')
-    no-repeat center;
+  background: url('../img/Promo-Banner-Image.jpg') no-repeat center;
   background-size: cover;
 }
 
-.couponBig{
+.couponBig {
   width: 80%;
   margin: 0 auto;
   padding: 10% 5%;
   clear: both;
 }
 
-.couponBig .contentWrapper{
+.couponBig .contentWrapper {
   width: 50%;
   text-align: left;
 }
 
 /* MAIN 5: Our Lookbook */
 .lookbook {
+  padding: 5% 15%;
+  width: 100%;
+}
+
+.text {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.imgColumn {
+  float: left;
+}
+
+.allImages, .imgColumn{
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  contain: content;
+}
+
+.lookbook .allImages{
+  padding-left: 7%;
+}
+
+.imgColumn, .stylistImgWrapper{
+  width: 33%;
+  float: left;
+}
+
+.lookbook {
   clear: both;
   overflow: hidden;
 }
 
-.laptop-ourlookbook-section {
-  width: 100%;
-  height: 150vh;
-  border: 0px solid black;
-}
-.laptop-ourlookbook-section-heading {
-  width: 100%;
-  height: 20%;
-  border: 0px solid black;
-}
-.laptop-ourlookbook-section-heading h1 {
-  font-size: 2.5rem;
-  color: black;
-  padding-left: 40%;
-  font-weight: lighter;
-  padding-left: 40;
-  padding-top: 5%;
-}
-.gallery-container {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  padding: 6em 6em 6em 6em;
-}
-.gallery-col-one {
-  width: 33.3333%;
-  height: 100%;
-  float: left;
-}
-.highlights-img {
-  width: 450px;
-  height: 450px;
-  object-fit: fill;
-}
-.red-lips-img {
-  width: 450px;
-  height: 1150px;
-}
-
-.gallery-col-two {
-  width: 33.3333%;
-  height: 100%;
-  float: left;
-}
-.red-head-img {
-  width: 450px;
-  height: 1150px;
-}
-.power-pose-img {
-  width: 450px;
-  height: 450px;
-}
-.gallery-col-three {
-  width: 33.3333%;
-  height: 100%;
-  float: left;
-}
-.red-nails-img {
-  width: 450px;
-  height: 450px;
-}
-.jewelry-img {
-  width: 450px;
-  height: 1150px;
-}
-/* footer {
-
-} */
 
 /******************************************
 /* ADDITIONAL STYLES
