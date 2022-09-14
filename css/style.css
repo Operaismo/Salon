@@ -244,6 +244,24 @@ nav li {
   clear: both;
 }
 
+.couponBig {
+  background: url('../img/Promo-Banner-Image.jpg')
+    no-repeat center;
+  background-size: cover;
+}
+
+.couponBig{
+  width: 80%;
+  margin: 0 auto;
+  padding: 10% 5%;
+  clear: both;
+}
+
+.couponBig .contentWrapper{
+  width: 50%;
+  text-align: left;
+}
+
 /* MAIN 5: Our Lookbook */
 .lookbook {
   clear: both;
