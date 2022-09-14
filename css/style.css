@@ -5,16 +5,16 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
@@ -22,7 +22,7 @@
 /*******************************************/
 
 :root {
-  --font: "Roboto", Arial, Helvetica, sans-serif;
+  --font: 'Roboto', Arial, Helvetica, sans-serif;
   --main-grey: rgb(223, 232, 238);
   --main-lightgrey: rgb(245, 249, 252);
   --main-darkgrey: rgb(49, 70, 88);
@@ -41,11 +41,11 @@ a:active {
   color: black;
 }
 
-li, nav a {
+li,
+nav a {
   list-style: none;
   font-size: 1.25em;
 }
-
 
 /******************************************
 /* LAYOUT
@@ -79,7 +79,7 @@ nav li {
   height: 100%;
   display: block;
   float: left;
-  padding: .2em .2em .2em .2em;
+  padding: 0.2em 0.2em 0.2em 0.2em;
   text-align: center;
 }
 
@@ -91,7 +91,7 @@ nav li {
   height: 150vh;
   background-size: cover;
   background-position: center;
-  background-image: url("../img/highlights.jpg");
+  background-image: url('../img/highlights.jpg');
 }
 
 .blonde-highlight {
@@ -137,7 +137,9 @@ nav li {
   padding: 5em 5em 5em 5em;
 }
 
-.three-col-one, .three-col-two, .three-col-three {
+.three-col-one,
+.three-col-two,
+.three-col-three {
   width: 33.3333%;
   float: left;
 }
@@ -153,7 +155,8 @@ nav li {
   background-color: var(--main-grey);
 }
 
-.momentum-one, .momentum-two {
+.momentum-one,
+.momentum-two {
   width: 50%;
   float: left;
 }
@@ -175,13 +178,100 @@ nav li {
 .stylists {
   clear: both;
   text-align: center;
+  padding: 6em 6em 6em 6em;
 }
 
-.stylist-one, .stylist-two, .stylist-three {
+.stylist-one,
+.stylist-two,
+.stylist-three {
   width: 33.3333%;
   float: left;
 }
 
+/* MAIN 4: Color Day Offer */
+.color-day {
+  clear: both;
+}
+
+/* MAIN 5: Our Lookbook */
+.lookbook {
+  clear: both;
+  text-align: center;
+}
+
+.laptop-ourlookbook-section {
+  width: 100%;
+  height: 150vh;
+  border: 0px solid black;
+}
+.laptop-ourlookbook-section-heading {
+  width: 100%;
+  height: 20%;
+  border: 0px solid black;
+}
+.laptop-ourlookbook-section-heading h1 {
+  font-size: 2.5rem;
+  color: black;
+  padding-left: 40%;
+  font-weight: lighter;
+  padding-left: 40;
+  padding-top: 5%;
+}
+.gallery-container {
+  width: 100%;
+  height: 100%;
+  border: 0px solid black;
+}
+.gallery1-gallery2 {
+  width: 33.3333%;
+  height: 100%;
+  border: 0px solid black;
+  float: left;
+}
+.gallery1-img {
+  width: 100%;
+  height: 30%;
+  border: 0px solid black;
+}
+.gallery2-img {
+  width: 100%;
+  height: 70%;
+  border: 0px solid black;
+}
+
+.gallery3-gallery4 {
+  width: 33.3333%;
+  height: 100%;
+  border: 0px solid black;
+  float: left;
+}
+.gallery3-img {
+  width: 100%;
+  height: 70%;
+  border: 0px solid black;
+}
+.gallery4-img {
+  width: 100%;
+  height: 30%;
+  border: 0px solid black;
+}
+.gallery5-gallery6 {
+  width: 33.3333%;
+  height: 100%;
+  border: 0px solid black;
+  float: left;
+}
+.gallery5-img {
+  width: 100%;
+  height: 30%;
+  border: 0px solid black;
+}
+.gallery6-img {
+  width: 100%;
+  height: 69%;
+  margin-top: 1%;
+  border: 0px solid black;
+}
 /* footer {
 
 } */
@@ -189,7 +279,12 @@ nav li {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-hr {
-  display: none;
+.lookbook-hr {
+  color: black;
+  width: 100px;
+  font-weight: bold;
 }
+
+/* hr {
+  display: none;
+} */
