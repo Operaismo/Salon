@@ -88,7 +88,7 @@ nav li {
   color: white;
   image-rendering: -webkit-optimize-contrast;
   width: 100%;
-  height: 125vh;
+  height: 150vh;
   background-size: cover;
   background-position: center;
   background-image: url("../img/highlights.jpg");
@@ -127,7 +127,7 @@ nav li {
 
 .arrows {
   float: right;
-  margin-top: 120vh;
+  margin-top: 140vh;
 }
 
 /* MAIN 2: Three columns */
@@ -159,11 +159,11 @@ nav li {
 }
 
 .momentum-one {
-  padding-left: 10em;
+  padding-left: 6em;
 }
 
 .momentum-two {
-  padding-right: 10em;
+  padding-right: 6em;
 }
 
 .woman-salon {
@@ -174,6 +174,12 @@ nav li {
 /* MAIN 3: Stylists */
 .stylists {
   clear: both;
+  text-align: center;
+}
+
+.stylist-one, .stylist-two, .stylist-three {
+  width: 33.3333%;
+  float: left;
 }
 
 /* footer {
