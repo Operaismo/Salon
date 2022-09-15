@@ -210,12 +210,46 @@ nav li {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 391px) and (max-width: 768px) {
   .main-landing {
-    background-size: contain;
+    background-size: cover;
+    height: 800px;
     background-position: top;
+    font-size: .65em;
+  }
+  
+  .hours-vertical {
+    margin-top: 0;
+  }
+
+  .arrows {
+    margin-top: 250px;
+  }
+  .first-visit {
+    width: 50%;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .main-landing {
+    background-size: cover;
+    height: 600px;
+    background-position: top;
+    font-size: .5em;
+  }
+  
+  .hours-vertical {
+    margin-top: 0;
+  }
+
+  .arrows {
+    margin-top: 175px;
+  }
+  .first-visit {
+    width: 75%;
+  }
+}
+
 
 /* MAIN 2: Three columns */
 
