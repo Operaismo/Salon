@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.1.0...v1.2.0) (2022-09-15)
+
+
+### Features
+
+* finished big desktop mvp ([a710d5e](https://github.com/mokkapps/changelog-generator-demo/commits/a710d5e985d9b815b184e6d0e01db70b5018be96))
+* implemented iPad mvp ([9085a09](https://github.com/mokkapps/changelog-generator-demo/commits/9085a0999ad09eb484ecf62e9911334a9543e0de))
+* implemented Salon Responsive MVP ([c5f1cc7](https://github.com/mokkapps/changelog-generator-demo/commits/c5f1cc7c8176e2a9aca3ac61c3132b0222f0fff9))
+* improved styling for lookbook for iPad dimensions specifically ([6e36ca1](https://github.com/mokkapps/changelog-generator-demo/commits/6e36ca1bba48f88fdac112c95c9bf9adf459e199))
+* improved styling for lookbook for smaller devices ([e898ebe](https://github.com/mokkapps/changelog-generator-demo/commits/e898ebe7888ef50b0d75e22976a78403f8a35a36))
+* improved styling for the momentum and stylist section ([6d6f1f4](https://github.com/mokkapps/changelog-generator-demo/commits/6d6f1f4ae4b05db4d099468f9e3fbc9959967618))
+
+
+### Bug Fixes
+
+* fixed a bug where hours was being cut off ([cfb809b](https://github.com/mokkapps/changelog-generator-demo/commits/cfb809b834e9dcfe22894c156fee4ef3d2618ad6))
+
 ## [1.1.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.3...v1.1.0) (2022-09-14)
 
 
