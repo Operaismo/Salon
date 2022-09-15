@@ -424,6 +424,11 @@ nav li {
     padding: 0 0;
   }
 
+  .lookbook h2 {
+    font-size: .75em;
+    padding: 1em 1em;
+  }
+
   .lookbook .allImages {
     padding: 3em 3em 3em 3em;
   }
@@ -436,8 +441,8 @@ nav li {
 
   .imgSquare,
   .imgRectangle {
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    height: 100vh;
     background-size: cover;
   }
 }
