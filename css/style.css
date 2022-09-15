@@ -143,6 +143,10 @@ nav li {
   nav li {
     display: none;
   }
+
+  .logo {
+    margin-left: 40%;
+  }
 }
 
 /* MAIN 1 */
@@ -245,16 +249,17 @@ nav li {
   .main-info {
     width: 50%;
     padding: 0 0 0 0;
+    margin: 0 0;
   }
   
   .hours-vertical {
-    margin-top: 100px;
     font-size: 2em;
     font-weight: bold;
+    margin-top: 15em;
   }
 
   .arrows {
-    margin-top: 425px;
+    margin-top: 400px;
   }
   .first-visit {
     width: 75%;
@@ -281,6 +286,13 @@ nav li {
 .three-col-three {
   width: 33.3333%;
   float: left;
+}
+
+@media screen and (max-width: 390px) {
+  .threesec {
+    font-size: .75em;
+    padding: 1em 1em 1em 1em;
+  }
 }
 
 /* MAIN 3: Momentum */
@@ -336,6 +348,20 @@ nav li {
   }
 }
 
+@media screen and (max-width: 390px) {
+  .momentum h2 {
+    font-size: 2em;
+  }
+  .momentum-one, .momentum-two {
+    width: 100%;
+    line-height: 1.5;
+    font-size: 0.65em;
+  }
+  .woman-salon {
+    padding: 3em 3em 3em 3em;
+  }
+}
+
 /* MAIN 3: Stylists */
 .stylists {
   clear: both;
@@ -374,7 +400,7 @@ nav li {
 
 @media (min-width: 1921px) and (max-width: 2560px) {
   .three-stylists {
-    padding-left: 22em;
+    padding-left: 0;
   }
 }
 
@@ -386,6 +412,23 @@ nav li {
   .stylist-one,
   .stylist-two,
   .stylist-three {
+    padding: 0.2em 0.2em 0.2em 0.2em;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .stylists {
+    width: 100%;
+  }
+  .three-stylists {
+    padding: 0 0 0 0;
+    width: 100%;
+    font-size: 0.5em;
+  }
+  .stylist-one,
+  .stylist-two,
+  .stylist-three {
+    width: 100%;
     padding: 0.2em 0.2em 0.2em 0.2em;
   }
 }
@@ -410,6 +453,12 @@ nav li {
 .couponBig .contentWrapper {
   width: 50%;
   text-align: left;
+}
+
+@media screen and (max-width: 390px){
+  aside {
+    font-size: .65em;
+  }
 }
 
 /* MAIN 5: Our Lookbook */
